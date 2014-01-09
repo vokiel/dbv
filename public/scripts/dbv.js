@@ -10,7 +10,7 @@ document.observe("dom:loaded", function () {
 
 function clear_messages(container) {
     container = $(container);
-    container.select('.alert-success', '.alert-error').invoke('remove');
+    container.select('.alert-success', '.alert-error', '.alert-info').invoke('remove');
 }
 
 function render_messages(type, container, messages, heading) {
