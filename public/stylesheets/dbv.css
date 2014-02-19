@@ -77,6 +77,9 @@ a.revision-handle {
     border-bottom: none;
     margin-top: 5px;
 }
+#revisions td {
+  max-width: 500px;
+}
 .revision-files .alert-success, .revision-files .alert-error {
     margin: 5px 0 0 0;
 }

@@ -11,7 +11,7 @@
   border: 1px solid #bce8f1;
   border-radius: 0 0 4px 4px;
   margin-bottom: 10px;
-  width: 641px;
+  width: auto;
 }
 
 .CodeMirror-scroll {
